@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tugas API Web 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🛍️ Daftar Produk</h1>
+    <p class="subtitle">Data diambil langsung dari FakeStoreAPI</p>
+
+    <p id="error-msg"></p>
+
+    <div class="search-wrapper">
+      <input
+        type="text"
+        id="search"
+        placeholder="Cari nama produk atau kategori..."
+      />
+    </div>
+
+    <p id="info-jumlah"></p>
+
+    <div id="loading">⏳ Memuat data produk...</div>
+
+    <div id="produk-grid"></div>
+
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
